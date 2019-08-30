@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) {
+	.container {
+		-ms-grid-columns: 1fr;
+		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about__heading,
+	.main__heading {
+		font-size: 23px;
+	}
+
+	.about__avatar {
+		max-width: 120px;
+	}
+
+	.about__description {
+		font-size: .8rem;
+
+		&:nth-of-type(1) {
+				font-size: .9rem
+			}
+	}
+
+	.about__social {
+		font-size: .8rem;
+	}
+
+	.main__button {
+		padding: 2px 5px;
+		font-size: .8rem;
+	}
+
+	.main__footer {
+		font-size: .8rem;
+	}
+}
