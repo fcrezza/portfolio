@@ -3,24 +3,25 @@ main {
 }
 
 .main__heading {
-	margin: 2.5rem 0 2rem;
+	margin: 2rem 0;
 	text-align: center;
 	font-size: 28px;
 }
 
 .main__cards {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 	width: 100%;
-	max-width: 750px;
+	max-width: 700px;
 	margin: auto;
-	padding: 0 1rem;
 }
 
 .main__card {
-	 margin: auto;
-	 margin-bottom: 2rem;
-	height: 200px;
+	margin: auto;
+	margin-bottom: 2rem;
+	height: 210px;
 	width: 100%;
 	max-width: 180px;
 	border-radius: 5px;
@@ -55,7 +56,7 @@ main {
 	background: url('../img/demo.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 84%;
+	height: 80%;
 	position: relative;
 
 	&::before {
@@ -74,7 +75,7 @@ main {
 		margin-left: -24.2px;
 		background: rgb(0,0,0,.7);
 		display: inline-block;
-		border-radius: 12px;
+		border-radius: 20px;
 		color: #eee;
 		padding: 3px 12px;
 		visibility: hidden;		
@@ -82,7 +83,7 @@ main {
 }
 .main__card-title {
 	text-align: center;
-	line-height: 2;
+	line-height: 2.5;
 }
 
 .main__card-link {
@@ -101,14 +102,14 @@ main {
 	text-decoration: none;
 	color: #555;
 
-	&:hover {
+	&:hover,
+	&:focus {
 		background-color: #eee;
 	}
 }
 
 .main__footer {
 	text-align: center;
-	margin-top: 1.5rem;
-	padding: 12px 0;
+	padding: 1.5rem 0 10px;
 	color: $secondary;
 }

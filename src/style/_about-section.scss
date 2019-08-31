@@ -2,17 +2,16 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: center;
 	background-color: #fdfdfd;
 	box-shadow: 3px 0px 17px rgba(38, 25, 25, 0.2);
 	min-height: 100vh;
-	padding: 1rem;
 
 		&__heading {
 			font-size: 28px;
 			
 			&:nth-of-type(1) {
-				margin-top: 5.3rem;
+				margin-top: 0;
 			}
 
 			&:nth-of-type(2) {
@@ -35,18 +34,19 @@
 		&__description {
 			margin-bottom: 0;
 			color: $secondary;
-
+			font-size: 1.1rem;
 			&:nth-of-type(1) {
-				font-size: 1.1rem
+				font-size: 1.2rem
 			}
 		}
 
 		&__social {
 			text-align: center;
 			color: $secondary;
+			font-size: 1.1rem;
 
 			p {
-				 margin-bottom: 8px;
+				 margin-bottom: 6px;
 			}
 		}
 
